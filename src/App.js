@@ -1,10 +1,8 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div>Jairus Pogis</div>
-  );
-}
+import Ads from "./Ads";
+
+const App = () => <Ads />;
 
 export default App;
